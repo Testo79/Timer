@@ -1,0 +1,72 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px ; 
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 120px;
+}
+
+
+.close-modal {
+   border: none;
+   color: white ;
+   background-color:transparent;
+
+   
+}
+.editTime {
+    display: flex;
+    justify-content: space-between;
+    background-color:#3399FF ;
+    padding: 10px;
+    color: white;
+}
+
+
+.time-input-container {
+  
+    display: flex;
+    margin: 10px;
+    text-align: center ;
+}
+.time-input {
+    width: 100px;
+    padding: 8px;
+    margin-right: 10px;
+    outline: none;
+}
+.submit-btn {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #45a049;
+}
